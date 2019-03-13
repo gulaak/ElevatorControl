@@ -5,6 +5,8 @@ Secure Access Elevator Control System
 Control of elevator using a finite state machine, limited user input, distance sensing, motion sensing, and motor control.
 Distance sensors are used as a location finding system and the motion sensing stops the doors from closing when people are near for safety.
 
+All source code is written in C and the target microcontroller is the ATMEGA328p
+
 The Elevator functions in the following way:
 1. The user requests the elevator to a specific floor by pressing the associated button.
 2. The motor elevator turns on and moves to the specified floor.
